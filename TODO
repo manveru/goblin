@@ -12,6 +12,7 @@ Done:
 * rm
 * sha1sum
 * sleep
+* touch
 
 In progress:
 * du
@@ -47,7 +48,6 @@ Still missing:
 * tail
 * tee
 * test
-* touch
 * tr
 * troff
 * unicode
