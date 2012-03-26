@@ -1,53 +1,55 @@
-Legend:
-  o: complete
-  -: in progress
+Done:
+* ascii
+* basename
+* cat
+* cleanname
+* date
+* echo
+* factor
+* freq
+* mkdir
+* rm
+* sha1sum
 
-[o] ascii
-[ ] awk
-[o] basename
-[ ] bc
-[ ] cal
-[o] cat
-[o] cleanname
-[ ] cmp
-[o] date
-[ ] dc
-[-] du
-[ ] dd
-[ ] diff
-[o] echo
-[ ] ed
-[o] factor
-[ ] fortune
-[ ] fmt
-[ ] freq
-[ ] getflags
-[ ] grep
-[ ] hoc
-[ ] join
-[ ] look
-[ ] ls
-[ ] mk
-[ ] mkdir
-[ ] mtime
-[ ] pbd
-[ ] primes
-[ ] rc
-[ ] read
-[ ] sam
-[ ] sha1sum
-[ ] sed
-[ ] seq
-[ ] sleep
-[ ] sort
-[ ] split
-[ ] strings
-[ ] tail
-[ ] tee
-[ ] test
-[ ] touch
-[ ] tr
-[ ] troff
-[ ] unicode
-[ ] uniq
-[ ] unutf
+In progress:
+* du
+
+Still missing:
+* awk
+* bc
+* cal
+* cmp
+* dc
+* dd
+* diff
+* ed
+* fmt
+* fortune
+* getflags
+* grep
+* hoc
+* join
+* look
+* ls
+* mk
+* mtime
+* pbd
+* primes
+* rc
+* read
+* sam
+* sed
+* seq
+* sleep
+* sort
+* split
+* strings
+* tail
+* tee
+* test
+* touch
+* tr
+* troff
+* unicode
+* uniq
+* unutf
