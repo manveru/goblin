@@ -1,0 +1,53 @@
+Legend:
+  o: complete
+  -: in progress
+
+[o] ascii
+[ ] awk
+[o] basename
+[ ] bc
+[ ] cal
+[o] cat
+[o] cleanname
+[ ] cmp
+[o] date
+[ ] dc
+[-] du
+[ ] dd
+[ ] diff
+[o] echo
+[ ] ed
+[o] factor
+[ ] fortune
+[ ] fmt
+[ ] freq
+[ ] getflags
+[ ] grep
+[ ] hoc
+[ ] join
+[ ] look
+[ ] ls
+[ ] mk
+[ ] mkdir
+[ ] mtime
+[ ] pbd
+[ ] primes
+[ ] rc
+[ ] read
+[ ] sam
+[ ] sha1sum
+[ ] sed
+[ ] seq
+[ ] sleep
+[ ] sort
+[ ] split
+[ ] strings
+[ ] tail
+[ ] tee
+[ ] test
+[ ] touch
+[ ] tr
+[ ] troff
+[ ] unicode
+[ ] uniq
+[ ] unutf
