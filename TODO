@@ -6,10 +6,12 @@ Done:
 * date
 * echo
 * factor
+* fortune
 * freq
 * mkdir
 * rm
 * sha1sum
+* sleep
 
 In progress:
 * du
@@ -24,7 +26,6 @@ Still missing:
 * diff
 * ed
 * fmt
-* fortune
 * getflags
 * grep
 * hoc
@@ -40,7 +41,6 @@ Still missing:
 * sam
 * sed
 * seq
-* sleep
 * sort
 * split
 * strings
