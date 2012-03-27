@@ -9,6 +9,8 @@ Done:
 * fortune
 * freq
 * mkdir
+* mtime
+* primes
 * rm
 * sha1sum
 * sleep
@@ -34,9 +36,7 @@ Still missing:
 * look
 * ls
 * mk
-* mtime
 * pbd
-* primes
 * rc
 * read
 * sam
