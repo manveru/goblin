@@ -10,6 +10,7 @@ Done:
 * freq
 * mkdir
 * mtime
+* pbd
 * primes
 * rm
 * sha1sum
@@ -40,7 +41,6 @@ Still missing:
 * look
 * ls
 * mk
-* pbd
 * rc
 * read
 * sam
