@@ -15,6 +15,7 @@ Done:
 * sha1sum
 * sleep
 * touch
+* uniq
 * wc
 
 In progress:
@@ -52,5 +53,4 @@ Still missing:
 * tr
 * troff
 * unicode
-* uniq
 * unutf
