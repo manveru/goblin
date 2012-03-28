@@ -14,6 +14,7 @@ Done:
 * rm
 * sha1sum
 * sleep
+* tee
 * touch
 * uniq
 * wc
@@ -48,7 +49,6 @@ Still missing:
 * split
 * strings
 * tail
-* tee
 * test
 * tr
 * troff
