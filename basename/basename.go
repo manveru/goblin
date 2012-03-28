@@ -11,7 +11,7 @@ func main() {
 	argc := len(args)
 
 	if argc < 1 || argc > 3 {
-		os.Stderr.WriteString("usage: basename [-d] string [suffix]\n")
+		fmt.Println(os.Stderr, "usage: basename [-d] string [suffix]\n")
 		os.Exit(1)
 	}
 
@@ -23,31 +23,36 @@ func main() {
 		argc -= 1
 	}
 
-	path := args[0]
-	pathIndex := strings.LastIndex(path, "/")
-
 	if dflag {
-		if pathIndex != -1 {
-			fmt.Println(path[:pathIndex])
-		} else {
-			fmt.Println(".")
-		}
+		fmt.Println(dirname(args[0]))
 	} else {
-		if pathIndex != 1 {
-			path = path[pathIndex+1:]
-		}
-		switch argc {
-		case 1:
-			fmt.Println(path)
-		case 2:
-			suffix := args[1]
-			fmt.Println(path, suffix)
-			suffixIndex := strings.LastIndex(path, suffix)
-			if len(path)-(suffixIndex+len(suffix)) == 0 {
-				fmt.Println(path[:suffixIndex])
-			} else {
-				fmt.Println(path)
-			}
+		if argc == 1 {
+			fmt.Println(basename(args[0], ""))
+		} else if argc == 2 {
+			fmt.Println(basename(args[0], args[1]))
 		}
 	}
+}
+
+func basename(path, suffix string) string {
+	pathIndex := strings.LastIndex(path, "/")
+	if pathIndex != 1 {
+		path = path[pathIndex+1:]
+	}
+	if suffix != "" {
+		suffixIndex := strings.LastIndex(path, suffix)
+		if len(path)-(suffixIndex+len(suffix)) == 0 {
+			path = path[:suffixIndex]
+		}
+
+	}
+	return path
+}
+
+func dirname(path string) string {
+	pathIndex := strings.LastIndex(path, "/")
+	if pathIndex != -1 {
+		return path[:pathIndex]
+	}
+	return "."
 }
