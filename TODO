@@ -17,6 +17,7 @@ Done:
 * tee
 * touch
 * uniq
+* unutf
 * wc
 
 In progress:
@@ -53,4 +54,3 @@ Still missing:
 * tr
 * troff
 * unicode
-* unutf
