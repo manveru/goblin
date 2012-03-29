@@ -1,56 +1,59 @@
 Done:
-* ascii
-* basename
-* cat
-* cleanname
-* date
-* echo
-* factor
-* fortune
-* freq
-* mkdir
-* mtime
-* pbd
-* primes
-* rm
-* sha1sum
-* sleep
-* tee
-* touch
-* uniq
-* unutf
-* wc
+*     ascii (C: 172, Go: 144)
+*  basename (C:  39, Go:  49)
+*       cat (C:  31, Go:  22)
+* cleanname (C:  40, Go:  24)
+*      date (C:  24, Go:  33)
+*      echo (C:  30, Go:  25)
+*    factor (C:  87, Go:  99)
+*   fortune (C:  88, Go:  46)
+*      freq (C: 104, Go:  78)
+*  getflags (C:  72, Go: 101)
+*     mkdir (C:  70, Go:  33)
+*     mtime (C:  29, Go:  21)
+*       pbd (C:  17, Go:  14)
+*    primes (C: 110, Go:  57)
+*        rm (C: 100, Go:  24)
+*       seq (C:  86, Go:  67)
+*   sha1sum (C:  53, Go:  49)
+*     sleep (C:  11, Go:  16)
+*       tee (C:  59, Go:  46)
+*     touch (C:  61, Go:  40)
+*      uniq (C: 149, Go: 232)
+*     unutf (C:  13, Go:  16)
+*        wc (C: 328, Go: 124)
+
+Not in Goblin, but done:
+md5sum (C: 53, Go: 49)
 
 In progress:
-* du
+* du (Go: 52)
 
-Still missing:
-* awk
-* bc
-* cal
-* cmp
-* dc
-* dd
-* diff
-* ed
-* fmt
-* getflags
-* grep
-* hoc
-* join
-* look
-* ls
-* mk
-* rc
-* read
-* sam
-* sed
-* seq
-* sort
-* split
-* strings
-* tail
-* test
-* tr
-* troff
-* unicode
+Things that might get done next with LoC indicating difficulty:
+*  strings (C:                 75)
+*     read (C:                 82)
+*      cmp (C:                106)
+*  unicode (C:                113)
+*    split (C:                165)
+*       mk (C:                200)
+*      fmt (C:                205)
+*      cal (C:                229)
+*       ls (C:                283)
+*     look (C:                304)
+*       tr (C:                320)
+*     tail (C:                321)
+*     test (C:                322)
+*     join (C:                353)
+*       dd (C:                610)
+*      sam (C:                667)
+*     diff (C:               1037)
+*      sed (C:               1298)
+*       ed (C:               1477)
+*     sort (C:               1539)
+*     grep (C:               1603)
+*      hoc (C:               2147)
+*       dc (C:               2170)
+*       bc (C:               2415)
+*       rc (C:               5817)
+*      awk (C:               6549)
+*    troff (C/ASM/Perl/...: 13901)
