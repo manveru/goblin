@@ -17,6 +17,7 @@ Done:
 *       seq (C:  86, Go:  67)
 *   sha1sum (C:  53, Go:  49)
 *     sleep (C:  11, Go:  16)
+*   strings (C:  75, Go:  70)
 *       tee (C:  59, Go:  46)
 *     touch (C:  61, Go:  40)
 *      uniq (C: 149, Go: 232)
@@ -30,7 +31,6 @@ In progress:
 * du (Go: 52)
 
 Things that might get done next with LoC indicating difficulty:
-*  strings (C:                 75)
 *     read (C:                 82)
 *      cmp (C:                106)
 *  unicode (C:                113)
