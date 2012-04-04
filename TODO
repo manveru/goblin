@@ -13,6 +13,7 @@ Done:
 *     mtime (C:  29, Go:  21)
 *       pbd (C:  17, Go:  14)
 *    primes (C: 110, Go:  57)
+*      read (C:  82, Go:  85)
 *        rm (C: 100, Go:  24)
 *       seq (C:  86, Go:  67)
 *   sha1sum (C:  53, Go:  49)
@@ -31,7 +32,6 @@ In progress:
 * du (Go: 52)
 
 Things that might get done next with LoC indicating difficulty:
-*     read (C:                 82)
 *      cmp (C:                106)
 *  unicode (C:                113)
 *    split (C:                165)
