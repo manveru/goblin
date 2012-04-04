@@ -29,6 +29,7 @@ func main() {
 		}
 
 		strings(f)
+		f.Close()
 	}
 }
 
