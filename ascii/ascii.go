@@ -1,3 +1,36 @@
+// ascii interprets ASCII characters
+//
+// SYNOPSIS
+//   [ -8 ] [ -oxdbn ] [ -nct ] [ text ]
+//
+// DESCRIPTION
+//   Ascii prints the ASCII values corresponding to characters
+//   and vice versa; under the -8 option, the ISO Latin-1 exten-
+//   sions (codes 0200-0377) are included.  The values are inter-
+//   preted in a settable numeric base; -o specifies octal, -d
+//   decimal, -x hexadecimal (the default), and -bn base n.
+//
+//   With no arguments, ascii prints a table of the character set
+//   in the specified base.  Characters of text are converted to
+//   their ASCII values, one per line. If, however, the first
+//   text argument is a valid number in the specified base, con-
+//   version goes the opposite way.  Control characters are
+//   printed as two- or three-character mnemonics.  Other options
+//   are:
+//
+//   -n   Force numeric output.
+//
+//   -c   Force character output.
+//
+//   -t   Convert from numbers to running text; do not interpret
+//        control characters or insert newlines.
+//
+//   The output of ascii may be unhelpful if the characters
+//   printed are not available in the current font.
+//
+// EXAMPLES
+//   ascii -d
+//     Print the ASCII table base 10.
 package main
 
 import (
