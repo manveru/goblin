@@ -1,3 +1,17 @@
+// basename - strip file name affixes
+//
+// SYNOPSIS
+//    basename [ -d ] string [ suffix ]
+//
+// DESCRIPTION
+//    Basename deletes any prefix ending in slash (/) and the
+//    suffix, if present in string, from string, and prints the
+//    result on the standard output.
+//
+//    The -d option instead prints the directory component, that
+//    is, string up to but not including the final slash.  If the
+//    string contains no slash, a period and newline are printed.
+
 package main
 
 import (
