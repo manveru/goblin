@@ -11,7 +11,6 @@
 //    The -d option instead prints the directory component, that
 //    is, string up to but not including the final slash.  If the
 //    string contains no slash, a period and newline are printed.
-
 package main
 
 import (
