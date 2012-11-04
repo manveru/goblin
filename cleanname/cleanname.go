@@ -1,3 +1,16 @@
+// cleanname cleans a path name
+//
+// SYNOPSIS
+//   cleanname [ -d pwd ] names ...
+//
+// DESCRIPTION
+//   For each file name argument, cleanname, by lexical processing
+//   only, prints the shortest equivalent string that names the
+//   same (possibly hypothetical) file.
+//   It eliminates multiple and trailing slashes, and it lexically
+//   interprets . and .. directory components in the name. If the -d
+//   option is present, unrooted names are prefixed with pwd/ before
+//   processing.
 package main
 
 import (
